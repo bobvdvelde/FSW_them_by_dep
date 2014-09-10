@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "RNVDV",
+    "file": "http://jeroen-noordhoek.nl/wp-content/uploads/2014/08/logo36x36.png",
+    "link": "http://bobvdvelde.github.io/FSW_overview/"
+  },
+  "text": {
+    "title": "Department Themes and their relations",
+    "more": "Gegevens gebaseerd op expers indeling\nRelaties zijn gebaseerd op gebruik door dezelfde departementen\nKleuren zijn gebaseerd op een inductieve herkenning van clusters waarbinnen meer wordt samengewerkt dan erbuiten.\n",
+    "intro": "FSW VU Themes, linked based on use by the same departments"
+  },
+  "legend": {
+    "edgeLabel": "Used by the same departments",
+    "colorLabel": "Module membership",
+    "nodeLabel": "Themes"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.5,
+      "maxNodeSize": 20,
+      "maxEdgeSize": 15,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 4,  
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 18,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
